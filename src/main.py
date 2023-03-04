@@ -61,6 +61,5 @@ def main():
         link_list = get_first_level(driver, link)
         [subcategory_list.put(i) for i in link_list]
 
-
 if __name__ == '__main__':
     main()
